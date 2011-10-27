@@ -1,0 +1,27 @@
+This script will automatically "buy" the free android app of the day from amazon.com
+
+Requirements:
+
+python v 2.5-2.7
+mechanize
+
+if you need mechanize, you can simply install it to your system with easy_install
+> easy_install mechanize
+
+alternatively, you can create a virtual environment and install it there:
+
+from the directory where getapp.py is, run the following commands
+> virtualenv .
+> easy_install mechanize
+
+
+To run:
+
+First, modify getapp.py with any editor -- change amazon_username to your amazon username (usually the email you used to create the account), and amazon_password to the value of your password.
+
+Then simply run the script.
+
+> python getapp.py
+
+
+Enjoy!
