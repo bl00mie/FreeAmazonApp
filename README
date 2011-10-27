@@ -12,6 +12,12 @@ alternatively, you can create a virtual environment and install it there:
 
 from the directory where getapp.py is, run the following commands
 > virtualenv .
+
+Unix: 
+> source bin/activate
+Windows: 
+> Scripts\activate.bat
+
 > easy_install mechanize
 
 
